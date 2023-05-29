@@ -11,6 +11,7 @@
 import re
 import keyword
 
+
 from pygments.lexer import DelegatingLexer, Lexer, RegexLexer, include, \
     bygroups, using, default, words, combined, do_insertions, this, line_re
 from pygments.util import get_bool_opt, shebang_matches
@@ -317,6 +318,7 @@ class PythonLexer(RegexLexer):
             (r'\d(?:_?\d)*', Number.Integer),
         ],
         'name': [
+            (r'(\w+)(?==)', Name.Property),
             (r'@' + uni_name, Name.Decorator),
             (r'@', Operator),  # new matrix multiplication operator
             (uni_name, Name),

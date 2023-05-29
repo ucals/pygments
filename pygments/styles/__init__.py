@@ -60,7 +60,9 @@ STYLE_MAP = {
     'vim': 'vim::VimStyle',
     'vs': 'vs::VisualStudioStyle',
     'xcode': 'xcode::XcodeStyle',
-    'zenburn': 'zenburn::ZenburnStyle'
+    'zenburn': 'zenburn::ZenburnStyle',
+    # new styles
+    'intellij-dark': 'intellij_dark::IntellijDarkStyle'
 }
 
 
