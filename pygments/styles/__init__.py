@@ -62,7 +62,9 @@ STYLE_MAP = {
     'xcode': 'xcode::XcodeStyle',
     'zenburn': 'zenburn::ZenburnStyle',
     # new styles
-    'intellij-dark': 'intellij_dark::IntellijDarkStyle'
+    'intellij-dark': 'intellij_dark::IntellijDarkStyle',
+    'stripe': 'stripe::StripeStyle',
+    'github': 'github::GithubStyle',
 }
 
 
